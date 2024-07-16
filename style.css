@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.header ul{
+    display: flex;
+    /* padding: 10px; */
+    list-style-type: none;
+    padding-left: 65%;
+    padding-top: 30px;
+}
+.header ul li{
+    padding-left: 40px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header ul li:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.header ul li a:hover{
+    color: yellow;
+}
+.contant1{
+    position: relative;
+}
+.contant1 h1{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    color: yellow;
+    font-size: 40px;
+}
+.contant1 h1:hover{
+    opacity: 1;
+}
+.contant1 h1{
+    
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.contant1 h1:hover{
+
+    transform: translateY(0px);
+}
+.contant3 h3{
+    /* border: 3px solid black; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: gray; */
+    color: rgb(255, 255, 255);
+}
+.contant3 h1{
+    color: red;
+}
+ .cont{
+    background-image: url(./img/img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .part1{
+    color: white;
+ }
+ .part2{
+    /* border: 3px solid rgb(246, 200, 200); */
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50%;
+    color: white;
+ }
+ .part3{
+    /* border: 3px solid rgb(255, 193, 193); */
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50%;
+    color: white;
+ }
+ .part4{
+    /* border: 3px solid rgb(255, 188, 188); */
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50%;
+    color: rgb(255, 252, 252);
+ }
+ .part5{
+    /* border: 3px solid rgb(255, 178, 178); */
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    margin-left: 50%;
+ }
+ .part6{
+    /* border: 3px solid rgb(249, 189, 189); */
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50%;
+    color: white;
+ }
+ .bg{
+    background-image: url(./img/lyrics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .footer1{
+    background-image: url(./img/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+ }
+ .footer{
+    background-color: rgb(220, 131, 131);
+    color: #eef5f0;
+    text-align: center;
+    margin-top: 38%;
+    
+ }
